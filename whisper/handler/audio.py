@@ -3,7 +3,7 @@ import os
 import whisper
 
 def generate_transcript(audio_path: str) -> str:
-    model = whisper.load_model("tiny")
+    model = whisper.load_model("base")
     result = model.transcribe(audio_path)
 
     # save the transcript

@@ -1,0 +1,36 @@
+INFO:     Will watch for changes in these directories: ['/home/dcslab/LLM-Video-Analysis-Backend/whisper']
+INFO:     Uvicorn running on http://0.0.0.0:30011 (Press CTRL+C to quit)
+INFO:     Started reloader process [93521] using WatchFiles
+INFO:     Started server process [93523]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     111.243.17.62:55067 - "GET /docs HTTP/1.1" 200 OK
+INFO:     111.243.17.62:55067 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [93523]
+INFO:     Stopping reloader process [93521]
+INFO:     Will watch for changes in these directories: ['/home/dcslab/LLM-Video-Analysis-Backend/whisper']
+INFO:     Uvicorn running on http://0.0.0.0:30011 (Press CTRL+C to quit)
+INFO:     Started reloader process [99236] using WatchFiles
+INFO:     Started server process [99238]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     111.243.17.62:61264 - "GET /docs HTTP/1.1" 200 OK
+INFO:     111.243.17.62:61264 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     111.243.17.62:62923 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     220.133.84.187:51537 - "GET / HTTP/1.1" 200 OK
+INFO:     220.133.84.187:51538 - "GET /docs HTTP/1.1" 200 OK
+INFO:     220.133.84.187:51538 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     111.243.7.75:54449 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     118.193.57.121:18174 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     165.154.51.221:39040 - "GET / HTTP/1.1" 200 OK
+INFO:     220.133.84.187:51341 - "GET / HTTP/1.1" 200 OK
+INFO:     220.133.84.187:53052 - "GET / HTTP/1.1" 200 OK
+INFO:     220.133.84.187:53052 - "GET /docs HTTP/1.1" 200 OK
+INFO:     220.133.84.187:53052 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     220.133.84.187:54695 - "POST /audio HTTP/1.1" 422 Unprocessable Entity

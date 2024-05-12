@@ -1,0 +1,204 @@
+INFO:     Started server process [47909]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:30010 (Press CTRL+C to quit)
+WARNING:  Invalid HTTP request received.
+INFO:     140.113.207.57:57323 - "GET /docs HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     140.113.207.57:57323 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     140.113.207.57:49678 - "GET /docs HTTP/1.1" 200 OK
+INFO:     140.113.207.57:49681 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [47909]
+INFO:     Started server process [48081]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:30010 (Press CTRL+C to quit)
+INFO:     140.113.207.57:49731 - "GET /docs HTTP/1.1" 200 OK
+INFO:     140.113.207.57:49731 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     140.113.207.57:49731 - "GET /docs HTTP/1.1" 200 OK
+INFO:     140.113.207.57:49731 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     140.113.207.57:49735 - "GET /docs HTTP/1.1" 200 OK
+INFO:     140.113.207.57:49735 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     205.210.31.18:65012 - "GET / HTTP/1.1" 200 OK
+INFO:     140.113.207.57:51796 - "GET /docs HTTP/1.1" 200 OK
+INFO:     140.113.207.57:51796 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     140.113.207.57:51835 - "POST /transript HTTP/1.1" 200 OK
+INFO:     111.243.17.62:50945 - "GET /docs HTTP/1.1" 200 OK
+INFO:     111.243.17.62:50945 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     198.235.24.89:62762 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     220.133.84.187:65172 - "GET /docs HTTP/1.1" 200 OK
+INFO:     220.133.84.187:65172 - "GET /openapi.json HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     220.133.84.187:65173 - "POST /chat HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     220.133.84.187:49464 - "GET /docs HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     220.133.84.187:49464 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     220.133.84.187:49791 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:49840 - "GET /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:50126 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:50343 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:50857 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:50883 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:50964 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:50986 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:51004 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:51247 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:53145 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:53710 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:58960 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:58960 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:58960 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:58960 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:58960 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:58960 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:58960 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:58987 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59118 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59274 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59274 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59274 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59274 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59741 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59741 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59741 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59741 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59741 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59741 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59741 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59741 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59741 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59862 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59862 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59937 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59937 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59937 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:59937 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60000 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60000 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60000 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60069 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60270 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60270 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60270 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60270 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60285 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60285 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60285 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60285 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60285 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60502 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60502 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60502 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60502 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60502 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60502 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60502 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60554 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60554 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60554 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60609 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60609 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60609 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60609 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60609 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60609 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60609 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60609 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60609 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60609 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60609 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:60609 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     115.231.78.7:31451 - "GET / HTTP/1.1" 200 OK
+INFO:     220.133.84.187:62709 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:63184 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:63899 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:63899 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:63899 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:63899 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:63899 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:63899 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:63899 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:64938 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:64938 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:64938 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:64938 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:64945 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:64945 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:49243 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:49243 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:49243 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:49243 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:49243 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:49243 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:49455 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:49464 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:49470 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:49483 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:49497 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:49497 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:49984 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     220.133.84.187:49984 - "OPTIONS /chat HTTP/1.1" 405 Method Not Allowed
+INFO:     111.243.17.62:52873 - "GET /docs HTTP/1.1" 200 OK
+INFO:     111.243.17.62:52873 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [48081]
+INFO:     Started server process [71642]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:30010 (Press CTRL+C to quit)
+INFO:     111.243.17.62:54746 - "GET /docs HTTP/1.1" 200 OK
+INFO:     111.243.17.62:54746 - "GET /openapi.json HTTP/1.1" 200 OK
