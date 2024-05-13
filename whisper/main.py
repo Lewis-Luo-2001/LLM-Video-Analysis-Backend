@@ -1,6 +1,7 @@
 import os
 
-from fastapi import FastAPI, UploadFile, status, Response, BackgroundTasks
+from fastapi import FastAPI, UploadFile, status, Response, BackgroundTasks, File, Form, Body
+from fastapi.middleware.cors import CORSMiddleware
 
 from handler import audio, file
 from model.audio_model import AudioModel
@@ -8,6 +9,16 @@ from pytube import YouTube
 import moviepy.editor
 
 app = FastAPI()
+
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 def read_root():
