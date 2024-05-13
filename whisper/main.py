@@ -7,6 +7,7 @@ from handler import audio, file
 from model.audio_model import AudioModel
 from pytube import YouTube
 import moviepy.editor
+from nanoid import generate
 
 app = FastAPI()
 
@@ -48,15 +49,15 @@ async def get_youtube_mp3(background_tasks: BackgroundTasks, url: str):
     }
 
 @app.post("/audio", status_code=201)
-async def post_audio(up_file: UploadFile, background_tasks: BackgroundTasks):
+async def post_audio(background_tasks: BackgroundTasks, language_tag: str = Form(...), translate_tag: str = Form(...), model_size: str = Form(...) ,up_file: UploadFile = File(...)):
     # generate the id by hash(filename)
-    id = hash.hash(up_file.filename)
+    id = generate(size=15)
 
     # save the audio file
     audio_path = file.save_audio(up_file, id)
 
     # generate the transcript with whisper
-    background_tasks.add_task(audio.generate_transcript, audio_path)
+    background_tasks.add_task(audio.generate_transcript, audio_path, model_size)
 
     return {
         "id": id
