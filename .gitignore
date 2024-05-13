@@ -162,3 +162,6 @@ cython_debug/
 # MacOS
 .DS_Store
 __MACOSX/
+
+# Store the tmp files
+tmp/
