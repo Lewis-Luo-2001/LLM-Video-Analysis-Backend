@@ -3,7 +3,7 @@ import os
 
 from fastapi import UploadFile
 
-APP_ROOT = '/home/dcslab/LLM-Video-Analysis-Backend/whisper'
+APP_ROOT = '/LLM-Video-Analysis-Backend/whisper'
 
 def save_audio(file: UploadFile, id: str) -> str:
     # save audio
