@@ -165,3 +165,8 @@ __MACOSX/
 
 # Store the tmp files
 tmp/
+
+env.py
+
+# nohup
+nohup.out
