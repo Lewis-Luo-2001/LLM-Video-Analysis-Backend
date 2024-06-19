@@ -11,6 +11,6 @@ class Chatbody(BaseModel):
     content: str
 
 class Context(BaseModel):
-    transcript: Transcript
-    chatbody: List[Chatbody]
-    question: str
+    context: List[Chatbody]
+    language_tag: str
+    model: str = 'llama3'

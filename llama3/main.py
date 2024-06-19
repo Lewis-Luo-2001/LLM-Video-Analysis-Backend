@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import model.chat_model as model
 
-from handler import llama
+from handler import llama, gemini
 
 app = FastAPI()
 
@@ -28,15 +28,27 @@ def post_transript(transcript: model.Transcript):
         "summary": summary
     }
 
-@app.post("/chat")
-def post_subtitle(context: model.Context):
-    answer = llama.chat(context)
+@app.post("/task")
+def post_subtitle(context: model.Context) :
 
-    # context.chatbody.append({"role": "user", "content": context.question})
-    # context.chatbody.append({"role": "assistant", "content": answer})
+    if context.model == 'llama3':
+        answer = llama.task(context.context, context.language_tag)
+    elif context.model == 'gemini':
+        answer = gemini.interact_with_gemini(context.context, context.language_tag, is_task=True)
 
     return {
         "answer": answer,
-        # "transcript": context.transcript,
-        # "history": context.chatbody,
+    }
+
+
+@app.post("/chat")
+def post_subtitle(context: model.Context) :
+
+    if context.model == 'llama3':
+        answer = llama.chat(context.context, context.language_tag)
+    elif context.model == 'gemini':
+        answer = gemini.interact_with_gemini(context.context, context.language_tag)
+
+    return {
+        "answer": answer,
     }
